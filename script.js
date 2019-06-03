@@ -2,7 +2,7 @@ const input        = document.getElementById('txtTaskName');
 const form         = document.getElementById('addTaskForm');
 const list         = document.getElementById('task-list');
 const deleteButton = document.getElementById('btnDeleteAll');
-let items        = [];
+let items;
 
 loadItems();
 
